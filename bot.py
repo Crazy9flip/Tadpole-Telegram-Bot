@@ -1,4 +1,5 @@
 import telebot
+from telebot import types
 from config import TOKEN
 
 from yt_dlp import YoutubeDL
@@ -22,14 +23,29 @@ ydl_config = {
 with open('responses.json', 'r') as f:
 	responses = json.load(f)
 
+
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
-	#bot.send_sticker(message.chat.id, 'CAACAgIAAxkBAANiaAzpviI4qhcGeoos2biR_25WNK0AAicDAAK1cdoGD_Tez6DF3ew2BA')
-	bot.send_message(message.chat.id, random.choice(responses['greetings']))
+	markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
+	markup.add(
+		types.KeyboardButton('🔁 Convert'), 
+		types.KeyboardButton('💰 Donate')
+		)
+	bot.send_message(message.chat.id, random.choice(responses['greetings']), reply_markup=markup)
+
 
 """@bot.message_handler(content_types=['sticker'])
 def handle_sticker(message):
     print(message.sticker.file_id)"""
+
+
+@bot.message_handler(func=lambda m: m.text in ['🔁 Convert', '💰 Donate'])
+def handle_markup(message):
+	if message.text == '🔁 Convert':
+		bot.send_message(message.chat.id, 'btn1')
+	if message.text == '💰 Donate':
+		bot.send_message(message.chat.id, 'btn2')
+
 
 @bot.message_handler(content_types=['text'])
 def handle_link(message):        
@@ -50,5 +66,6 @@ def handle_link(message):
 	with open(ydl_path, 'rb') as f:
 		bot.send_audio(message.chat.id, f)
 	os.remove(ydl_path)
+
 
 bot.infinity_polling()
