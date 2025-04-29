@@ -29,20 +29,48 @@
         ],
 
         "success": [
-            "T'was a fine deed!",
-            "Huzzah!",
-            "Aye, 'tis finished!",
-            "Well and truly done!",
-            "It be done!",
-            "All's well!"
+            "T'was a fine deed! Send me another, if ye will!",
+            "Huzzah! Hand me the next!",
+            "Aye, 'tis finished! Another link, if ye please!",
+            "Well and truly done! Feel free to toss me another!",
+            "It be done! Let's have another one, friend!",
+            "All's well! Another one, when ready!"
         ],
 
-        "error": [
-            "I fear I cannot take this one, friend.",
-            "By my troth, this seemeth not a proper link!",
-            "Alas, I know not what to do with this.",
-            "This link is beyond my ken, sadly.",
-            "Hmm... this link confoundeth me."
+        "error": {
+
+            "link": [
+                "I fear I cannot take this one, friend.",
+                "By my troth, this seemeth not a proper link!",
+                "Alas, I know not what to do with this.",
+                "This link is beyond my ken, sadly.",
+                "Hmm... this link confoundeth me."
+            ],
+
+            "mode": [
+                "Whoa there! Ye must first tell me thy wish - shall I convert, or merely listen?",
+                "Hold! I am not yet prepared to transmute scrolls. Choose the proper path first."
+            ]
+        }
+    },
+
+    "donation": {
+
+        "entry": [
+            "Give alms, shouldst thou feel generous of purse and spirit.",
+            "Drop some gold in the bucket, if thou art pleased.",
+            "Toss a coin to this bot, O user of might!",
+            "If thy heart is kind, offer tribute to support this humble magic.",
+            "Send coin, if thou findest worth in these labors.",
+            "Bestow support upon this humble construct, and it shall serve thee well."
+        ],
+
+        "success": [
+            "Thy generosity hath been noted, noble soul! May thy kindness return to thee a thousandfold.",
+            "A thousand thanks, kind one! Thy tribute will not go unnoticed — the bot shall grow ever stronger!",
+            "Thy offering is greatly appreciated, kind user. May your journey be blessed with fortune and melody!",
+            "Gratitude, noble heart! Thy coin shall be spent wisely in the service of song and magic.",
+            "By thy hand, the bot flourishes! Thanks be to thee, and may your days be filled with harmony and ease!"
         ]
     }
 }
