@@ -1,0 +1,48 @@
+{
+    "greetings": [
+        "Hail and well met! I be here to help.",
+        "Good morrow to thee! What dost thou seek?",
+        "Ho there! Needest thou aid?",
+        "Welcome, welcome! Fear not, I be a friend.",
+        "By the good earth, a new face! Speak, and I'll listen.",
+        "Hullo there! What can I do for thee?"
+    ],
+
+    "link": {
+
+        "entry": [
+            "Send thy link, good soul, and I shall tend to it.",
+            "Pray, share the link with me, and I'll see it done.",
+            "Hand me thy link when thou art ready!",
+            "Give me thy link, and I'll set to work!",
+            "I await thy link, friend! Fear not, I be ready."
+        ],
+
+        "waiting": [
+            "Stay thy hand, good soul.",
+            "A wee moment, friend!",
+            "Pray, tarry but a little while...",
+            "Give me but a breath, friend...",
+            "Just a heartbeat, and I'll be ready.",
+            "Hold fast, I'm near done!",
+            "Wait but a wink, and all shall be set."
+        ],
+
+        "success": [
+            "T'was a fine deed!",
+            "Huzzah!",
+            "Aye, 'tis finished!",
+            "Well and truly done!",
+            "It be done!",
+            "All's well!"
+        ],
+
+        "error": [
+            "I fear I cannot take this one, friend.",
+            "By my troth, this seemeth not a proper link!",
+            "Alas, I know not what to do with this.",
+            "This link is beyond my ken, sadly.",
+            "Hmm... this link confoundeth me."
+        ]
+    }
+}
