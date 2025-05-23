@@ -1,13 +1,17 @@
-import telebot
-from telebot import types
-from config import TOKEN
-
-from yt_dlp import YoutubeDL
 import os
 import json
 import random
 
-bot = telebot.TeleBot(TOKEN)
+import telebot
+from telebot import types
+
+from yt_dlp import YoutubeDL
+
+from dotenv import load_dotenv, find_dotenv
+load_dotenv(find_dotenv())
+
+
+bot = telebot.TeleBot(os.getenv('TOKEN'))
 
 ydl_config = {
     'format': 'bestaudio',
