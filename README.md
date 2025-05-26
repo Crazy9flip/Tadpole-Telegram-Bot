@@ -6,7 +6,7 @@
 
 ## Requirements
 
-- Python 3.9+
+- Python 3.9+ (CPython)
 - FFmpeg
   - Tested with FFmpeg 7.1.1 "Péter"
   - [FFmpeg releases page](https://ffmpeg.org/download.html#releases)
