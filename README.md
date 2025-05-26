@@ -15,7 +15,7 @@
 
 ## Installation
 
-1. Setup virtual environment in project's root directory <br/>
+1. **Setup virtual environment in project's root directory** <br/>
 - For Linux:
 ```bash
 python3 -m venv venv
@@ -26,7 +26,7 @@ python -m venv venv
 ```
 <br/>
 
-2. Activate virtual environment <br/>
+2. **Activate virtual environment** <br/>
 - For Linux:
 ```bash
 source venv/bin/activate
@@ -37,13 +37,13 @@ venv\scripts\activate
 ```
 <br/>
 
-3. Install requirements in your venv <br/>
+3. **Install requirements in your venv** <br/>
 ```bash
 pip install -r requirements.txt
 ```
 <br/>
 
-4. Create .env file in project's root directory and configure API-token <br/>
+4. **Create .env file in project's root directory and configure API-token** <br/>
 ```.env
 TOKEN=your_token
 ```
@@ -64,6 +64,6 @@ python bot.py
 
 <br/><br/>
 
-<div style="display:flex; justify-content:center">
+<p align="center">
     <img src="https://i.imgur.com/LxAQYdK.jpeg" width="400" alt="Bot preview">
-</div>
+</p>
