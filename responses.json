@@ -37,21 +37,14 @@
             "All's well! Another one, when ready!"
         ],
 
-        "error": {
+        "error": [
 
-            "link": [
-                "I fear I cannot take this one, friend.",
-                "By my troth, this seemeth not a proper link!",
-                "Alas, I know not what to do with this.",
-                "This link is beyond my ken, sadly.",
-                "Hmm... this link confoundeth me."
-            ],
-
-            "mode": [
-                "Whoa there! Ye must first tell me thy wish - shall I convert, or merely listen?",
-                "Hold! I am not yet prepared to transmute scrolls. Choose the proper path first."
-            ]
-        }
+            "I fear I cannot take this one, friend.",
+            "By my troth, this seemeth not a proper link!",
+            "Alas, I know not what to do with this.",
+            "This link is beyond my ken, sadly.",
+            "Hmm... this link confoundeth me."
+        ]
     },
 
     "donation": {
