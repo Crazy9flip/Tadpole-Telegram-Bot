@@ -4,6 +4,12 @@
 
 <br/>
 
+<p align="center">
+    <img src="https://files.catbox.moe/qua78x.jpg" width="400" alt="Bot preview">
+</p>
+
+<br/>
+
 ## Requirements
 
 - Python 3.9+ (CPython)
@@ -61,9 +67,3 @@ python3 bot.py
 ```cmd
 python bot.py
 ```
-
-<br/><br/>
-
-<p align="center">
-    <img src="https://i.imgur.com/LxAQYdK.jpeg" width="400" alt="Bot preview">
-</p>
